@@ -43,19 +43,19 @@ div{
 }
 
 .red{
+    border-top: 2px;
+    border-right: 5px;
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
 }
 
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-left: 5px;
+    border-bottom: 2px;
     color: #c4c4c4;
 }
 
@@ -67,8 +67,8 @@ div.blue h2{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-top: 2px;
+    border-right: 5px;
     color: #707070;
 }
 
@@ -76,8 +76,8 @@ div.blue h2{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-left: 5px;
+    border-bottom: 2px;
 }
 
 footer{
@@ -89,7 +89,7 @@ footer{
 footer p{
     font-size: 20px;
     text-align: right;
-    padding-top: 15;
-    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
